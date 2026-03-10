@@ -1,1 +1,0 @@
-concole("Hello");
