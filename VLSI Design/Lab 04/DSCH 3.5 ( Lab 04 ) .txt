@@ -1,0 +1,15 @@
+// DSCH 3.5
+// 4/22/2026 8:41:03 PM
+// D:\4-2\VLSI Lab\Lab 04.sch
+module Lab04( inl, out1) ;
+input inl;
+output outl;
+wire ;
+nmos #(1) nmos_1(outl, vss, inl); // 0.3u 0.05u
+pmos #(1) pmos_2 (out1, vdd, inl); // 0.5u 0.05u
+endmodule
+// Simulation parameters in Verilog Format
+always
+#200 inl =~ inl;
+// Simulation parameters
+// inl CLK 1 1
