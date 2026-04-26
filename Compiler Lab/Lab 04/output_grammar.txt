@@ -1,0 +1,9 @@
+E -> TE'
+E' ->  + TE' | ε
+T -> FT'
+T' ->  * FT' | ε
+S -> x | y
+A -> xaA' | yaA' | BfA' | mA' | cA' | dA'
+A' -> aA' | bA' | ε
+B -> xaA'bB' | yaA'bB' | mA'bB' | cA'bB' | dA'bB' | xcB' | ycB' | nB'
+B' -> fA'bB' | ε

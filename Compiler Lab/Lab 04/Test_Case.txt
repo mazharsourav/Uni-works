@@ -1,0 +1,9 @@
+E -> E + T | T
+
+T -> T * F | F
+
+S -> x | y 
+A -> Sa | Bf | m
+B -> Ab | Sc | n
+
+A -> Aa | Ab | c | d
