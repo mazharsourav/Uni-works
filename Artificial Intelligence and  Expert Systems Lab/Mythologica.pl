@@ -479,4 +479,4 @@ is_dangerous(Entity) :-
     member(Type, [monster, demon, ghost, witch, yokai, trickster, sorcerer]).
 
 
-% Will be more better fact and rule in the near future inshallah.
+% Will be more better fact and rule in the near future.
